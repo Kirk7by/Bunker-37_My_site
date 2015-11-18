@@ -1,0 +1,98 @@
+﻿html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body
+{
+    margin: 0;
+}
+
+
+$headerColor: #FAFBFA;   //цвет фона шапки
+$btnBackgroundColor:#590328;   //фон кнопки
+$btnForegroundColor: #ffffff;   //цвет текста кнопки
+
+
+header
+{
+    display:block;
+    background:$headerColor;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    align-content:center;
+}
+
+.head-menu{
+}
+
+
+.logo-munu{
+    background: #FAFBFA;
+    width:980px;
+    margin-left:auto;
+    margin-right:auto;
+    .right-logo{
+        float:right;
+    }
+}
+
+
+.menu-menu{
+    background:#FFFFFF; 
+    width:auto;
+}
+
+ul.buttons-head-menu
+{
+    text-align:center;
+    padding:0px;
+    li{
+        margin-bottom:2px;
+        display:inline-block;
+        background: $btnBackgroundColor;
+        transition-duration: 0.05s;
+        -webkit-transform: skewX(-30deg); /* Для Safari и Chrome */
+        -moz-transform: skewX(-30deg); /* Для Firefox */
+        -o-transform: skewX(-30deg); /* Для Opera */
+        -ms-transform: skewX(-30deg); /* Для IE */
+        transform: skewX(-30deg); /* CSS3 */
+
+        
+
+        padding: 15px 15px 15px 15px; /* Поля вокруг текста */
+
+        a{
+            color: $btnForegroundColor; /* Цвет ссылок */
+            display: block; /* Блочный элемент */
+            text-decoration: none; /* Убираем подчёркивание */
+            
+       
+            font-family:'Comic Sans MS';
+            }       
+    }
+    li:hover {
+                border-radius:98%;  
+                -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                transform: scale(1.5);
+
+            }
+}
+#li-general{
+  //  @extend li;
+    background:#5F595B;
+    width: 100px;
+}
+
+.container-div{
+ 
+    width:84%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.jumbotron{
+  text-align:center;
+}

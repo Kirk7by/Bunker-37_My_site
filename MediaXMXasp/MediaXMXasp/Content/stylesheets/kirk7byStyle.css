@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* line 1, ../sass/kirk7byStyle.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 6, ../sass/kirk7byStyle.scss */
+body {
+  margin: 0;
+}
+
+/* line 17, ../sass/kirk7byStyle.scss */
+header {
+  display: block;
+  background: #FAFBFA;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  align-content: center;
+}
+
+/* line 31, ../sass/kirk7byStyle.scss */
+.logo-munu {
+  background: #FAFBFA;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 36, ../sass/kirk7byStyle.scss */
+.logo-munu .right-logo {
+  float: right;
+}
+
+/* line 42, ../sass/kirk7byStyle.scss */
+.menu-menu {
+  background: #FFFFFF;
+  width: auto;
+}
+
+/* line 47, ../sass/kirk7byStyle.scss */
+ul.buttons-head-menu {
+  text-align: center;
+  padding: 0px;
+}
+/* line 51, ../sass/kirk7byStyle.scss */
+ul.buttons-head-menu li {
+  margin-bottom: 2px;
+  display: inline-block;
+  background: #590328;
+  transition-duration: 0.05s;
+  -webkit-transform: skewX(-30deg);
+  /* Для Safari и Chrome */
+  -moz-transform: skewX(-30deg);
+  /* Для Firefox */
+  -o-transform: skewX(-30deg);
+  /* Для Opera */
+  -ms-transform: skewX(-30deg);
+  /* Для IE */
+  transform: skewX(-30deg);
+  /* CSS3 */
+  padding: 15px 15px 15px 15px;
+  /* Поля вокруг текста */
+}
+/* line 66, ../sass/kirk7byStyle.scss */
+ul.buttons-head-menu li a {
+  color: #ffffff;
+  /* Цвет ссылок */
+  display: block;
+  /* Блочный элемент */
+  text-decoration: none;
+  /* Убираем подчёркивание */
+  font-family: 'Comic Sans MS';
+}
+/* line 75, ../sass/kirk7byStyle.scss */
+ul.buttons-head-menu li:hover {
+  border-radius: 98%;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+/* line 83, ../sass/kirk7byStyle.scss */
+#li-general {
+  background: #5F595B;
+  width: 100px;
+}
+
+/* line 89, ../sass/kirk7byStyle.scss */
+.container-div {
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 96, ../sass/kirk7byStyle.scss */
+.jumbotron {
+  text-align: center;
+}
