@@ -3,28 +3,26 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
+
+
+$bodyColor: #D8D8D8;
+$headerColor: #FAFBFA;   //цвет фона шапки
+$btnBackgroundColor:#FFFFFF;   //фон кнопки
+$btnForegroundColor: #000000;   //цвет текста кнопки //цвет текста ссылок
+
 body
 {
     margin: 0;
+    background: $bodyColor;
 }
-
-
-$headerColor: #FAFBFA;   //цвет фона шапки
-$btnBackgroundColor:#590328;   //фон кнопки
-$btnForegroundColor: #ffffff;   //цвет текста кнопки
-
-
 header
 {
     display:block;
     background:$headerColor;
-    margin-left:auto;
-    margin-right:auto;
-    width:90%;
-    align-content:center;
 }
 
 .head-menu{
+    background:  $bodyColor;
 }
 
 
@@ -51,39 +49,45 @@ ul.buttons-head-menu
     li{
         margin-bottom:2px;
         display:inline-block;
-        background: $btnBackgroundColor;
-        transition-duration: 0.05s;
-        -webkit-transform: skewX(-30deg); /* Для Safari и Chrome */
-        -moz-transform: skewX(-30deg); /* Для Firefox */
-        -o-transform: skewX(-30deg); /* Для Opera */
-        -ms-transform: skewX(-30deg); /* Для IE */
-        transform: skewX(-30deg); /* CSS3 */
-
-        
-
-        padding: 15px 15px 15px 15px; /* Поля вокруг текста */
+        padding-right:5px;
 
         a{
-            color: $btnForegroundColor; /* Цвет ссылок */
+            background: $btnBackgroundColor;
+            color: $btnForegroundColor;
+
+            transition-duration: 0.05s;
+            -webkit-transform: skewX(-18deg); /* Для Safari и Chrome */
+            -moz-transform: skewX(-18deg); /* Для Firefox */
+            -o-transform: skewX(-18deg); /* Для Opera */
+            -ms-transform: skewX(-18deg); /* Для IE */
+            transform: skewX(-18deg); /* CSS3 */
+            padding: 15px 15px 15px 15px; /* Поля вокруг текста */
+
+            transition: .1s ease-out;
+
             display: block; /* Блочный элемент */
             text-decoration: none; /* Убираем подчёркивание */
-            
-       
+
             font-family:'Comic Sans MS';
+            font-size: 14pt;
+           
+            z-index:0;
             }       
     }
-    li:hover {
-                border-radius:98%;  
-                -webkit-transform: scale(1.5);
-                -ms-transform: scale(1.5);
-                transform: scale(1.5);
-
-            }
-}
-#li-general{
-  //  @extend li;
-    background:#5F595B;
-    width: 100px;
+    a:hover {
+        //        border-radius:10%; 
+      //    -webkit-transform: scale(1.5);
+     //     -ms-transform: scale(1.5);
+            transform: scale(1.3);
+   //         -moz-transform: skewX(-30deg),scale(1.3);
+    //        transform: skewX(-30deg, 20deg),scale(1.3);
+                
+            background:#757575;
+            background-color: #ffffff;
+            color: #FF006B;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+            z-index:5;    
+    }
 }
 
 .container-div{
