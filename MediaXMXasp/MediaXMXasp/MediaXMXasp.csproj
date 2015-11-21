@@ -188,10 +188,14 @@
     <Content Include="ImageElements\404.jpg" />
     <Content Include="ImageElements\bunger_rigth.png" />
     <Content Include="ImageElements\bunker-logo.png" />
+    <Content Include="ImageElements\BUNKERLOGOS2version.png" />
+    <Content Include="ImageElements\BUNKERLOGOS3version.png" />
     <Content Include="ImageElements\BUNKERLOGOS_opacity.png" />
     <Content Include="ImageElements\bunker_logo-350-84.png" />
     <Content Include="ImageElements\bunker_logo.png" />
+    <Content Include="ImageElements\headPhone.png" />
     <Content Include="ImageElements\MixMediaLogo3.png" />
+    <Content Include="ImageElements\phoneInfinity.jpg" />
     <Content Include="ImageElements\rigth_logo.png" />
     <Content Include="ImageElements\XMX.png" />
     <Content Include="Mediaelements\02 - Ugokidasu Yokan.mp3" />
