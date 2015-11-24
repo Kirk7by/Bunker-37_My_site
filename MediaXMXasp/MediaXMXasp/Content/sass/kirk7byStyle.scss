@@ -6,7 +6,7 @@
 
 
 $bodyColor: #D8D8D8;
-$headerColor: #FAFBFA;   //цвет фона шапки
+$headerColor: #009076;   //цвет фона шапки
 $btnBackgroundColor:#FFFFFF;   //фон кнопки
 $btnForegroundColor: #000000;   //цвет текста кнопки //цвет текста ссылок
 
@@ -22,7 +22,7 @@ header
 }
 
 .head-menu{
-    background:  $bodyColor;
+    background: $headerColor;
 }
 
 
@@ -30,17 +30,32 @@ header
     background: url(../../ImageElements/phoneInfinity.jpg) top right repeat-x;
     height: 100%;
     width: 100%;
-//    background: #FAFBFA;
     margin-left:auto;
     margin-right:auto;
-    .right-logo{
-      //  float:right;
-        position: absolute;
-        right:3px;
-    }
+    
 }
 
-
+.right-logo{
+        float:right;
+        position: relative;
+        right:10px;
+        top:25px;
+        z-index:100;
+        opacity:0.4;
+        transition: .1s ease-out;
+        margin-bottom: 25px;
+    }
+.right-logo:hover
+{
+    opacity:1;
+    transform: scale(1.08);
+}
+.radionomy-player{
+    opacity:0.4;
+}
+.radionomy-player:hover{
+     opacity:1;
+}
 .menu-menu{
     background:#FFFFFF; 
     width:auto;
@@ -50,16 +65,16 @@ ul.buttons-head-menu
 {
     text-align:center;
     padding:0px;
+    margin-top: 3px;
+    position:relative;
     li{
         margin-bottom:2px;
         display:inline-block;
-        padding-right:5px;
-
+        padding-right:5px;   
         a{
             background: $btnBackgroundColor;
             color: $btnForegroundColor;
 
-            transition-duration: 0.05s;
             -webkit-transform: skewX(-18deg); /* Для Safari и Chrome */
             -moz-transform: skewX(-18deg); /* Для Firefox */
             -o-transform: skewX(-18deg); /* Для Opera */
@@ -78,27 +93,29 @@ ul.buttons-head-menu
             z-index:0;
             }       
     }
+    
     a:hover {
-        //        border-radius:10%; 
-      //    -webkit-transform: scale(1.5);
-     //     -ms-transform: scale(1.5);
             transform: scale(1.3);
-   //         -moz-transform: skewX(-30deg),scale(1.3);
-    //        transform: skewX(-30deg, 20deg),scale(1.3);
-                
             background:#757575;
             background-color: #ffffff;
             color: #FF006B;
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-            z-index:5;    
+            z-index:5;   
     }
 }
 
+.child-menu{
+    float:left;
+    position:absolute;
+    top:100%;
+    li{display:block;}
+}
+
+
+
 .container-div{
- 
-    width:84%;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
 .jumbotron{

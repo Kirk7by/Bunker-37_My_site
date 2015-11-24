@@ -203,6 +203,8 @@
     <Content Include="Mediaelements\Kow_Otani_-_Track_6_Another_OST_%28xMusic.me%29.mp3" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Plugins\Media_Radio.js" />
+    <Content Include="Scripts\Plugins\radionomy.player.js" />
     <Content Include="temporaryFolder\01 Wolf and Best Clothes %28HD%29.m4v" />
     <Content Include="temporaryFolder\02 Wolf and Distant Past %28HD%29.m4v" />
     <Content Include="temporaryFolder\03 Wolf and Business Talent %28HD%29.m4v" />

@@ -15,12 +15,12 @@ body {
 /* line 18, ../sass/kirk7byStyle.scss */
 header {
   display: block;
-  background: #FAFBFA;
+  background: #009076;
 }
 
 /* line 24, ../sass/kirk7byStyle.scss */
 .head-menu {
-  background: #D8D8D8;
+  background: #009076;
 }
 
 /* line 29, ../sass/kirk7byStyle.scss */
@@ -31,34 +31,58 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 36, ../sass/kirk7byStyle.scss */
-.logo-munu .right-logo {
-  position: absolute;
-  right: 3px;
+
+/* line 38, ../sass/kirk7byStyle.scss */
+.right-logo {
+  float: right;
+  position: relative;
+  right: 10px;
+  top: 25px;
+  z-index: 100;
+  opacity: 0.4;
+  transition: .1s ease-out;
+  margin-bottom: 25px;
 }
 
-/* line 44, ../sass/kirk7byStyle.scss */
+/* line 48, ../sass/kirk7byStyle.scss */
+.right-logo:hover {
+  opacity: 1;
+  transform: scale(1.08);
+}
+
+/* line 53, ../sass/kirk7byStyle.scss */
+.radionomy-player {
+  opacity: 0.4;
+}
+
+/* line 56, ../sass/kirk7byStyle.scss */
+.radionomy-player:hover {
+  opacity: 1;
+}
+
+/* line 59, ../sass/kirk7byStyle.scss */
 .menu-menu {
   background: #FFFFFF;
   width: auto;
 }
 
-/* line 49, ../sass/kirk7byStyle.scss */
+/* line 64, ../sass/kirk7byStyle.scss */
 ul.buttons-head-menu {
   text-align: center;
   padding: 0px;
+  margin-top: 3px;
+  position: relative;
 }
-/* line 53, ../sass/kirk7byStyle.scss */
+/* line 70, ../sass/kirk7byStyle.scss */
 ul.buttons-head-menu li {
   margin-bottom: 2px;
   display: inline-block;
   padding-right: 5px;
 }
-/* line 58, ../sass/kirk7byStyle.scss */
+/* line 74, ../sass/kirk7byStyle.scss */
 ul.buttons-head-menu li a {
   background: #FFFFFF;
   color: #000000;
-  transition-duration: 0.05s;
   -webkit-transform: skewX(-18deg);
   /* Для Safari и Chrome */
   -moz-transform: skewX(-18deg);
@@ -80,7 +104,7 @@ ul.buttons-head-menu li a {
   font-size: 14pt;
   z-index: 0;
 }
-/* line 81, ../sass/kirk7byStyle.scss */
+/* line 97, ../sass/kirk7byStyle.scss */
 ul.buttons-head-menu a:hover {
   transform: scale(1.3);
   background: #757575;
@@ -90,14 +114,24 @@ ul.buttons-head-menu a:hover {
   z-index: 5;
 }
 
-/* line 97, ../sass/kirk7byStyle.scss */
-.container-div {
-  width: 84%;
-  margin-left: auto;
-  margin-right: auto;
+/* line 107, ../sass/kirk7byStyle.scss */
+.child-menu {
+  float: left;
+  position: absolute;
+  top: 100%;
+}
+/* line 111, ../sass/kirk7byStyle.scss */
+.child-menu li {
+  display: block;
 }
 
-/* line 104, ../sass/kirk7byStyle.scss */
+/* line 116, ../sass/kirk7byStyle.scss */
+.container-div {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+/* line 121, ../sass/kirk7byStyle.scss */
 .jumbotron {
   text-align: center;
 }
