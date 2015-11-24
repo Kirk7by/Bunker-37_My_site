@@ -13,12 +13,12 @@
 </head>
 <body>
     <header>
-        <div class="head-menu">
-            <div class="logo-munu">
-                 <a href="@Url.Action("Index", "Home" )"><img src="~/ImageElements/BUNKERLOGOS3version.png" /></a>
+        <div class="header-container">
+            <div class="logo-container">
+                 <a href="@Url.Action("Index", "Home" )"><img src="~/ImageElements/Bunker_logos.png" /></a>
                 <div class="right-logo"><div class="radionomy-player"></div></div>
             </div>
-            <div class="menu-menu">
+            <div class="header-menu-container">
                 <ul class="buttons-head-menu">
                     <li>@Html.ActionLink("Главная", "Index", "Home")
                         <ul class="child-menu">
@@ -34,7 +34,6 @@
                     <li><a href="~/menu" class="btn btn-primary btn-lg">Тестирование ОШИБОК &raquo;</a></li>
                 </ul>
             </div>
-
         </div>
     </header>
     <!--        @Html.Partial("_LoginPartial")  -->
@@ -54,6 +53,7 @@
     @RenderSection("scripts", required: false)
 </body>
 </html>
+<!--
 <script>
  (function(){
      var sound = new Audio('/Mediaelements/Kow_Otani_-_Track_6_Another_OST_(xMusic.me).mp3');
@@ -64,3 +64,4 @@
  sound.play();
  })();
 </script>
+-->

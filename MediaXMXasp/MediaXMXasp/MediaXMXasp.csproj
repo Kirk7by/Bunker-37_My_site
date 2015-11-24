@@ -186,6 +186,8 @@
     <Content Include="Global.asax" />
     <Content Include="iconBuncer.ico" />
     <Content Include="ImageElements\404.jpg" />
+    <Content Include="ImageElements\B37.png" />
+    <Content Include="ImageElements\BLOG.png" />
     <Content Include="ImageElements\bunger_rigth.png" />
     <Content Include="ImageElements\bunker-logo.png" />
     <Content Include="ImageElements\BUNKERLOGOS2version.png" />
@@ -193,6 +195,7 @@
     <Content Include="ImageElements\BUNKERLOGOS_opacity.png" />
     <Content Include="ImageElements\bunker_logo-350-84.png" />
     <Content Include="ImageElements\bunker_logo.png" />
+    <Content Include="ImageElements\Bunker_logos.png" />
     <Content Include="ImageElements\headPhone.png" />
     <Content Include="ImageElements\MixMediaLogo3.png" />
     <Content Include="ImageElements\phoneInfinity.jpg" />
@@ -205,19 +208,6 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\Plugins\Media_Radio.js" />
     <Content Include="Scripts\Plugins\radionomy.player.js" />
-    <Content Include="temporaryFolder\01 Wolf and Best Clothes %28HD%29.m4v" />
-    <Content Include="temporaryFolder\02 Wolf and Distant Past %28HD%29.m4v" />
-    <Content Include="temporaryFolder\03 Wolf and Business Talent %28HD%29.m4v" />
-    <Content Include="temporaryFolder\04 Wolf and Her Helpless Partner %28HD%29.m4v" />
-    <Content Include="temporaryFolder\05 Wolf and Lovers%27 Quarrel %28HD%29.m4v" />
-    <Content Include="temporaryFolder\06 Wolf and Silent Farewell %28HD%29.m4v" />
-    <Content Include="temporaryFolder\07 Wolf and Tail of Happiness %28HD%29.m4v" />
-    <Content Include="temporaryFolder\08 Wolf and Virtuous Scales %28HD%29.m4v" />
-    <Content Include="temporaryFolder\09 Wolf and the Shepherd%27s Lamb %28HD%29.m4v" />
-    <Content Include="temporaryFolder\10 Wolf and the Swirling Plot %28HD%29.m4v" />
-    <Content Include="temporaryFolder\11 Wolf and the Biggest Secret Scheme %28HD%29.m4v" />
-    <Content Include="temporaryFolder\12 Wolf and a Group of Youngsters %28HD%29.m4v" />
-    <Content Include="temporaryFolder\13 Wolf and New Begininng %28HD%29.m4v" />
     <Content Include="xmxicons.ico" />
     <Content Include="Content\sass\kirk7byStyle.scss" />
     <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
@@ -273,6 +263,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="temporaryFolder\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

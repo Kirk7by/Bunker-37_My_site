@@ -1,15 +1,31 @@
-﻿html {
-    font-family: sans-serif;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+﻿article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
 }
-
-
 $bodyColor: #D8D8D8;
 $headerColor: #009076;   //цвет фона шапки
 $btnBackgroundColor:#FFFFFF;   //фон кнопки
 $btnForegroundColor: #000000;   //цвет текста кнопки //цвет текста ссылок
 
+*{
+    margin:0px;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 body
 {
     margin: 0;
@@ -17,16 +33,15 @@ body
 }
 header
 {
-    display:block;
     background:$headerColor;
 }
 
-.head-menu{
+.header-container{
     background: $headerColor;
 }
 
 
-.logo-munu{
+.logo-container{
     background: url(../../ImageElements/phoneInfinity.jpg) top right repeat-x;
     height: 100%;
     width: 100%;
@@ -45,18 +60,14 @@ header
         transition: .1s ease-out;
         margin-bottom: 25px;
     }
+
 .right-logo:hover
 {
     opacity:1;
     transform: scale(1.08);
 }
-.radionomy-player{
-    opacity:0.4;
-}
-.radionomy-player:hover{
-     opacity:1;
-}
-.menu-menu{
+
+.header-menu-container{
     background:#FFFFFF; 
     width:auto;
 }

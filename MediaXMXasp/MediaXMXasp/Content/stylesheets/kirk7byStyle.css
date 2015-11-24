@@ -1,30 +1,50 @@
 @charset "UTF-8";
 /* line 1, ../sass/kirk7byStyle.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 20, ../sass/kirk7byStyle.scss */
+* {
+  margin: 0px;
+}
+
+/* line 24, ../sass/kirk7byStyle.scss */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 13, ../sass/kirk7byStyle.scss */
+/* line 29, ../sass/kirk7byStyle.scss */
 body {
   margin: 0;
   background: #D8D8D8;
 }
 
-/* line 18, ../sass/kirk7byStyle.scss */
+/* line 34, ../sass/kirk7byStyle.scss */
 header {
-  display: block;
   background: #009076;
 }
 
-/* line 24, ../sass/kirk7byStyle.scss */
-.head-menu {
+/* line 39, ../sass/kirk7byStyle.scss */
+.header-container {
   background: #009076;
 }
 
-/* line 29, ../sass/kirk7byStyle.scss */
-.logo-munu {
+/* line 44, ../sass/kirk7byStyle.scss */
+.logo-container {
   background: url(../../ImageElements/phoneInfinity.jpg) top right repeat-x;
   height: 100%;
   width: 100%;
@@ -32,7 +52,7 @@ header {
   margin-right: auto;
 }
 
-/* line 38, ../sass/kirk7byStyle.scss */
+/* line 53, ../sass/kirk7byStyle.scss */
 .right-logo {
   float: right;
   position: relative;
@@ -44,42 +64,32 @@ header {
   margin-bottom: 25px;
 }
 
-/* line 48, ../sass/kirk7byStyle.scss */
+/* line 64, ../sass/kirk7byStyle.scss */
 .right-logo:hover {
   opacity: 1;
   transform: scale(1.08);
 }
 
-/* line 53, ../sass/kirk7byStyle.scss */
-.radionomy-player {
-  opacity: 0.4;
-}
-
-/* line 56, ../sass/kirk7byStyle.scss */
-.radionomy-player:hover {
-  opacity: 1;
-}
-
-/* line 59, ../sass/kirk7byStyle.scss */
-.menu-menu {
+/* line 70, ../sass/kirk7byStyle.scss */
+.header-menu-container {
   background: #FFFFFF;
   width: auto;
 }
 
-/* line 64, ../sass/kirk7byStyle.scss */
+/* line 75, ../sass/kirk7byStyle.scss */
 ul.buttons-head-menu {
   text-align: center;
   padding: 0px;
   margin-top: 3px;
   position: relative;
 }
-/* line 70, ../sass/kirk7byStyle.scss */
+/* line 81, ../sass/kirk7byStyle.scss */
 ul.buttons-head-menu li {
   margin-bottom: 2px;
   display: inline-block;
   padding-right: 5px;
 }
-/* line 74, ../sass/kirk7byStyle.scss */
+/* line 85, ../sass/kirk7byStyle.scss */
 ul.buttons-head-menu li a {
   background: #FFFFFF;
   color: #000000;
@@ -104,7 +114,7 @@ ul.buttons-head-menu li a {
   font-size: 14pt;
   z-index: 0;
 }
-/* line 97, ../sass/kirk7byStyle.scss */
+/* line 108, ../sass/kirk7byStyle.scss */
 ul.buttons-head-menu a:hover {
   transform: scale(1.3);
   background: #757575;
@@ -114,24 +124,24 @@ ul.buttons-head-menu a:hover {
   z-index: 5;
 }
 
-/* line 107, ../sass/kirk7byStyle.scss */
+/* line 118, ../sass/kirk7byStyle.scss */
 .child-menu {
   float: left;
   position: absolute;
   top: 100%;
 }
-/* line 111, ../sass/kirk7byStyle.scss */
+/* line 122, ../sass/kirk7byStyle.scss */
 .child-menu li {
   display: block;
 }
 
-/* line 116, ../sass/kirk7byStyle.scss */
+/* line 127, ../sass/kirk7byStyle.scss */
 .container-div {
   margin-left: 7px;
   margin-right: 7px;
 }
 
-/* line 121, ../sass/kirk7byStyle.scss */
+/* line 132, ../sass/kirk7byStyle.scss */
 .jumbotron {
   text-align: center;
 }
